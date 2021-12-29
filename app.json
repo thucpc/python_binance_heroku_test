@@ -2,7 +2,7 @@
     "name": "binance-trade-bot",
     "description": "Binance Trader",
     "logo": "https://cdn.freebiesupply.com/logos/large/2x/binance-coin-logo-png-transparent.png",
-    "repository": "https://github.com/edeng23/binance-trade-bot",
+    "repository": "https://github.com/thucpc/python_binance_heroku_test",
 	"formation": {
     "worker": {
       "quantity": 1,
@@ -13,16 +13,18 @@
     "env": {
       "API_KEY": {
         "description": "Binance API key generated in the Binance account setup stage",
-        "required": true
+        "required": true,
+	      "value": "ALK03vSsiz75a5JON5hBf1JE7Pc6cccV4joAG4myIMCntRFYqKbknJbSEh33L8Jd"
       },
       "API_SECRET_KEY": {
         "description": "Binance secret key generated in the Binance account setup stage",
-        "required": true
+        "required": true,
+	      "value": "QqebI1NGXBMbjBb4V0mIkpmccSuwcSn0ZefyPj1xaLQBw6kiyoK5VKzMO8bz1iSJ"
       },
       "CURRENT_COIN_SYMBOL": {
         "description": "This is your starting coin of choice. This should be one of the coins from your supported coin list. If you want to start from your bridge currency, leave this field empty - the bot will select a random coin from your supported coin list and buy it",
 		"required": false,
-	      "value": "XMR"
+	      "value": "BTC"
       },
       "BRIDGE_SYMBOL": {
         "description": "Your bridge currency of choice. Notice that different bridges will allow different sets of supported coins. For example, there may be a Binance particular-coin/USDT pair but no particular-coin/BUSD pair",
