@@ -2,7 +2,7 @@
 
 ![github](https://img.shields.io/github/workflow/status/edeng23/binance-trade-bot/binance-trade-bot)
 ![docker](https://img.shields.io/docker/pulls/edeng23/binance-trade-bot)
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/edeng23/binance-trade-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/thucpc/python_binance_heroku_test)
 
 > Automated cryptocurrency trading bot
 
